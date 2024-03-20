@@ -1,7 +1,7 @@
 name: analytics_manager
-description: A new Flutter project.
+description: Helper for multiple analytics services handler
 version: 0.0.1
-homepage:
+homepage: https://github.com/Flappy-Agency/analytics_manager
 
 environment:
   sdk: '>=3.0.5 <4.0.0'
