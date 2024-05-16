@@ -1,6 +1,6 @@
 name: analytics_manager
 description: Helper for multiple analytics services handler
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/Flappy-Agency/analytics_manager
 platforms:
   android:
