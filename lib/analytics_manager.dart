@@ -83,6 +83,19 @@ class AnalyticsManager {
     }
   }
 
+  Future logOutUser() async {
+    if (!loggingEnabled) {
+      if (kDebugMode) {
+        print('[AnalyticsManager] logOutUser ignored because logging is disabled');
+      }
+      return;
+    }
+
+    for (final handler in handlers) {
+      await handler.logOutUser();
+    }
+  }
+
   Future setUserProperty(String name, dynamic value) async {
     if (!loggingEnabled) {
       if (kDebugMode) {
