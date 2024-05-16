@@ -13,6 +13,8 @@ abstract class AnalyticsHandler {
 
   Future<void> deleteAccount();
 
+  Future<void> logOutUser();
+
   List<Type> ignoredEvents() {
     return [];
   }

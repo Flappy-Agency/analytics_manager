@@ -38,4 +38,9 @@ class DummyFirebaseAnalyticsHandler extends AnalyticsHandler {
   Future<void> deleteAccount() async {
     print('DummyFirebaseAnalyticsHandler, deleting account');
   }
+
+  @override
+  Future<void> logOutUser() async {
+    print('DummyFirebaseAnalyticsHandler, logging out user');
+  }
 }
