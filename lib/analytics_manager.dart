@@ -99,7 +99,7 @@ class AnalyticsManager {
   Future deleteAccount() async {
     if (!loggingEnabled) {
       if (kDebugMode) {
-        print('[AnalyticsManager] deleteAccount ignored because logging is disabled}');
+        print('[AnalyticsManager] deleteAccount ignored because logging is disabled');
       }
       return;
     }
