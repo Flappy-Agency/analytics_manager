@@ -15,9 +15,7 @@ abstract class AnalyticsHandler {
 
   Future<void> logOutUser();
 
-  List<Type> ignoredEvents() {
-    return [];
-  }
+  List<Type> ignoredEvents() => <Type>[];
 
   String formatToSnakeCase(String value) {
     return value.toLowerCase().replaceAll(' ', '_');

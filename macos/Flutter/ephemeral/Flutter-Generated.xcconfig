@@ -1,10 +1,10 @@
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=/Users/thomasecalle1/Development/flutter/sdk/flutter
-FLUTTER_APPLICATION_PATH=/Users/thomasecalle1/Development/flutter/flappy_projects/analytics_manager
+FLUTTER_ROOT=/Users/thomasecalle/Development/flutter/sdk/flutter
+FLUTTER_APPLICATION_PATH=/Users/thomasecalle/Development/flutter/flappy_projects/analytics_manager
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_BUILD_DIR=build
-FLUTTER_BUILD_NAME=0.0.1
-FLUTTER_BUILD_NUMBER=0.0.1
+FLUTTER_BUILD_NAME=1.0.1
+FLUTTER_BUILD_NUMBER=1.0.1
 DART_OBFUSCATION=false
 TRACK_WIDGET_CREATION=true
 TREE_SHAKE_ICONS=false
