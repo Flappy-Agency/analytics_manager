@@ -52,7 +52,10 @@ class AnalyticsManager {
 
     for (final handler in handlers) {
       final ignoredEvents = handler.ignoredEvents();
-      if (ignoredEvents.contains(event.runtimeType)) continue;
+      if (ignoredEvents.contains(event.runtimeType)) {
+        _showDebugMessage('event "${event.name}" ignored by handler ${handler.runtimeType}');
+        continue;
+      }
       handler.handleEvent(event);
     }
   }
