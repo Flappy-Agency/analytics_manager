@@ -10,36 +10,40 @@ This package aims to provide a simple way to handle multiple Analaytics handlers
 ```
 class DummyAnalyticsHandler extends AnalyticsHandler {  
 
-  @override  
-  Future<void> initialize() {  
-    ...  
-  }  
-  
-  @override  
-  Future<void> deleteAccount() {  
-    ...  
-  }  
-  
-  @override  
-  Future<void> handleEvent(AnalyticsEvent event) {  
-    ...  
-  }  
- 
-  
-  @override  
-  Future<void> setUserEmail(String userEmail) {  
-    ...  
-  }  
-  
-  @override  
-  Future<void> setUserId(String userId) {  
-    ...  
-  }  
-  
-  @override  
-  Future<void> setUserProperty(String name, value) {  
-    ...  
-  }  
+@override
+  Future<void> deleteAccount() {
+    ...
+  }
+
+  @override
+  Future<void> handleEvent(AnalyticsEvent event) {
+    ...
+  }
+
+  @override
+  Future<void> initialize() {
+    ...
+  }
+
+  @override
+  Future<void> logOutUser() {
+    ...
+  }
+
+  @override
+  Future<void> setUserEmail(String userEmail) {
+    ...
+  }
+
+  @override
+  Future<void> setUserId(String userId) {
+    ...
+  }
+
+  @override
+  Future<void> setUserProperty(String name, value) {
+    ...
+  }
 }
 ```
 
